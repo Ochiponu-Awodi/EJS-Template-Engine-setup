@@ -9,7 +9,8 @@ app.set('views', 'views');
 app.get('/', (req, res) => {
     res.render('index', {
         title: 'Welcome',
-        message: 'Hello from EJS'
+        message: 'Hello from EJS',
+        people: ['John, Jack, Jones']
     });
 })
 

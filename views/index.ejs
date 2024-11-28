@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1><%= message %></h1>
+
+    <ul>
+        <% people.forEach(person => { %>
+        <li><%= person %></li>
+        <% }); %>
+    </ul>
 </body>
 </html>
